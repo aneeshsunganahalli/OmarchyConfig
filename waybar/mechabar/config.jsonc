@@ -1,6 +1,6 @@
 {
-  "layer": "bottom",
-  "position": "bottom",
+  "layer": "top",
+  "position": "top",
   "height": 24, // Uncomment to set a fixed height
   // Note: The layout may break if height is greater than 24
   "mode": "dock",
@@ -25,8 +25,10 @@
     "custom/left2",
     "custom/cpuinfo",       // temperature
 
-    "custom/left3",
-    "memory",               // memory
+    // "custom/left3",
+    // "memory",               // memory
+    "clock#date",           // date
+    "custom/right4",
 
     "custom/left4",
     "custom/cpu",           // cpu
@@ -40,8 +42,7 @@
     "clock#time",           // time
     "custom/right3",
 
-    "clock#date",           // date
-    "custom/right4",
+    
 
     "custom/wifi",          // wi-fi
     "bluetooth",            // bluetooth
